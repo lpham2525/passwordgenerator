@@ -1,4 +1,6 @@
-  /* *, *::before, *::after {
+  *, 
+  *::before, 
+  *::after {
     box-sizing: border-box;
   }
 
@@ -81,14 +83,14 @@
     padding: 14px 34px;
     text-align: center;
     cursor: pointer;
-  } */
-
-  /* button[disabled] {
+  } 
+  
+  button[disabled] {
     cursor: default;
     background: #c0c7cf;
-  } */
+  } 
 
-  /* .float-right {
+ .float-right {
     float: right;
   }
 
@@ -115,80 +117,4 @@
     border-radius: 6px;
     resize: none;
     overflow: hidden;
-  } */
-
-  * {
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 30px;
-    font-weight: bolder;
-  }
-
-  h2 {
-    font-size: 25px;
-    font-weight: bold;
-  }
-
-  body {
-    background-image: url(https://i.pinimg.com/originals/e0/58/18/e05818d7c661fdab2d40c9d3cb35e8bd.jpg);
-    background-size: cover;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-
-  #password {
-    height: 50px;
-    width: 80%;
-    margin: 20px;
-  }
-
-  #generate {
-    margin-bottom: 10px;
-    height: 60px;
-    width: 150px;
-    background-color: red;
-  }
-
-  #input {
-    height: 30%;
-    width: 10%;
-  }
-
-  .hidden {
-    display: none;
-    padding-bottom: 20px;
-  }
-
-  #paragraphOne {
-    margin-bottom: 30px;
-  }
-
-  #paragraphTwo {
-    margin-bottom: 15px;
-  }
-
-  .wrapper {
-    background-image: url(https://motionarray.imgix.net/preview-271702-j7MCCckCvg-high_0002.jpg);
-    width: 50%;
-    margin: auto;
-    margin-top: 200px;
-    padding-top: 20px;
-  }
-
-  @media (max-width: 690px) {
-    .btn {
-      font-size: 1rem;
-      margin: 16px 0px 0px 0px;
-      padding: 10px 15px;
-    }
-    #password {
-      font-size: 1rem;
-    }
-  }
-
-  @media (max-width: 500px) {
-    .btn {
-      font-size: 0.8rem;
-    }
   }
